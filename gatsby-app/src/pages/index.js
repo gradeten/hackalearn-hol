@@ -7,6 +7,17 @@ const pageStyles = {
   padding: 50,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
+
+const menuStyles1 = {
+  listStyleType: "none",
+  margin: 0,
+  padding: 0,
+}
+
+const menuStyles2= {
+  display: "inline",
+}
+  
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
@@ -145,6 +156,14 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+
+      <ul style={menuStyles1}>
+        <li style={menuStyles2}><a href="#home">Home</a></li>
+        <li style={menuStyles2}><a href="#news">News</a></li>
+        <li style={menuStyles2}><a href="#contact">Contact</a></li>
+        <li style={menuStyles2}><a href="#about">About</a></li>
+      </ul>
+
       <h1 style={headingStyles}>
         TOGETHER
         <span style={headingAccentStyles}> ㅡ 더불어 살아가는 우리 사회 </span>
