@@ -45,12 +45,12 @@ const headingAccentStyles = {
 }
 
 const paragraphStyles1 = {
-  marginBottom: 48,
+  marginBottom: 20,
   textAlign:"right",
 }
 
 const paragraphStyles2 = {
-  marginBottom: 20,
+  marginBottom: 50,
   textAlign:"center",
 }
 const codeStyles = {
