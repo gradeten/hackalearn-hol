@@ -19,7 +19,7 @@ const paragraphStyles = {
   marginBottom: 48,
 }
 const codeStyles = {
-  color: "#8A6534",
+  color: "#000000",
   padding: 4,
   backgroundColor: "#cbffc9",
   fontSize: "1.20rem",
@@ -32,7 +32,7 @@ const listStyles = {
 }
 const listItemStyles = {
   fontWeight: 300,
-  fontSize: 24,
+  fontSize: 16,
   maxWidth: 560,
   marginBottom: 30,
 }
@@ -154,9 +154,10 @@ const IndexPage = () => {
       </h1>
       <p style={paragraphStyles}>
         우리가 알아야할 <code style={codeStyles}>우리 사회 구성원</code>에 대한 정보글
+        <br />
         made by Team 토킹 포테이토{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
-         🎤🥔
+        🎤🥔
         </span>
       </p>
       <ul style={listStyles}>
