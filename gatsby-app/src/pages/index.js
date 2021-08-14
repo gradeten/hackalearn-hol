@@ -10,7 +10,7 @@ const pageStyles = {
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 320,
+  maxWidth: 3000,
 }
 const headingAccentStyles = {
   color: "#43b53f",
@@ -147,14 +147,14 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         TOGETHER
         <br />
-        <span style={headingAccentStyles}>— 더불어 살아가는 우리 사회 </span>
+        <span style={headingAccentStyles}>더불어 살아가는 우리 사회 </span>
         <span role="img" aria-label="Party popper emojis">
           🤝🌍
         </span>
       </h1>
       <p style={paragraphStyles}>
         우리가 알아야할 <code style={codeStyles}>우리 사회 구성원</code>에 대한 정보글
-        <br />
+        <br /><br />
         made by Team 토킹 포테이토{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
         🎤🥔
