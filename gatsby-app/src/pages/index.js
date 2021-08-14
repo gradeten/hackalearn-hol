@@ -5,7 +5,7 @@ import logo from "../images/sub4-6_img01.jpg"
 // styles
 
 const imageStyle= {
-  testAlign: "center:,
+  testAlign: "center",
 }
 
 const pageStyles = {
