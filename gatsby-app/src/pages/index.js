@@ -4,7 +4,7 @@ import fetch from "node-fetch"
 // styles
 const pageStyles = {
   color: "#232129",
-  padding: 50,
+  padding: 50, 
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 
