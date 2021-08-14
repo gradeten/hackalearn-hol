@@ -78,6 +78,86 @@ const badgeStyle = {
   marginLeft: 10,
   lineHeight: 1,
 }
+//내가 추가한 css 코드
+const body{
+    margin: 0;
+    font-family: 'Source Sans Pro';
+}
+
+const a{
+    text-decoration:none;
+    color:white;
+}
+
+const .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(203, 191, 247);
+    padding: 8px 12px;
+}
+
+const .navbar__logo {
+    font-size: 24px;
+    color:cadetblue;
+
+}
+
+const .navbar__logo i {
+    color: rgb(97, 57, 241);
+}
+
+const .navbar__menu{
+    display:flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+const .navbar__menu li{
+    padding: 8px 12px;
+}
+
+const .navbar__menu li:hover {
+    background-color: rgb(230, 132, 255);
+    border-radius: 4px;
+}
+
+const .navbar__icons {
+    list-style: none;
+    color:white;
+    display: flex;
+    padding-left: 0;
+}
+
+const .navbar__icons li{
+    padding: 8px 12px;
+}
+
+const @media screen and (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .navbar__menu {
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+
+    .navbar__menu li{
+        width:100%;
+        text-align: center;
+    }
+
+    .navbar__icons{
+        justify-content: center;
+        width:100%;
+    }
+
+
+}
 
 // data
 const links = [
@@ -144,15 +224,15 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Wikipedia
+        TOGETHER
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
+        <span style={headingAccentStyles}>더불어 살아가는 공동체 사회 </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
+        우리 사회가 모두 알아야할 <code style={codeStyles}>사회 구성원</code>에 대한 정보 아카이빙 페이지
         update in real-time.{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
           😎
