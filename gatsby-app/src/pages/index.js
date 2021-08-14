@@ -179,8 +179,7 @@ const IndexPage = () => {
       </ul>
 
       <h1 style={headingStyles}>
-        <br />
-        TOGETHER
+        T O G E T H E R 
         <span style={headingAccentStyles}> ㅡ 더불어 살아가는 우리 사회 </span>
         <span role="img" aria-label="Party popper emojis">
           🤝🌍
