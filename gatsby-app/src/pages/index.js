@@ -12,10 +12,21 @@ const menuStyles1 = {
   listStyleType: "none",
   margin: 0,
   padding: 0,
+  overflow: "hidden";
+  backgroundColor: "#b5ffb3";
+
 }
 
 const menuStyles2= {
   display: "inline",
+}
+
+const menuStyles3= {
+  display: "block",
+  color: "#43b53f",
+  textAlign: "center",
+  padding: 14px 16px,
+  textDecoration: "none",
 }
   
 const headingStyles = {
@@ -158,10 +169,10 @@ const IndexPage = () => {
       <title>Home Page</title>
 
       <ul style={menuStyles1}>
-        <li style={menuStyles2}><a href="#home">Home</a></li>
-        <li style={menuStyles2}><a href="#news">News</a></li>
-        <li style={menuStyles2}><a href="#contact">Contact</a></li>
-        <li style={menuStyles2}><a href="#about">About</a></li>
+        <li style={menuStyles2}><a style={menuStyles3} href="#home">Home</a></li>
+        <li style={menuStyles2}><a style={menuStyles3} href="#news">News</a></li>
+        <li style={menuStyles2}><a style={menuStyles3} href="#contact">Contact</a></li>
+        <li style={menuStyles2}><a style={menuStyles3} href="#about">About</a></li>
       </ul>
 
       <h1 style={headingStyles}>
