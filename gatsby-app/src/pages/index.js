@@ -21,9 +21,10 @@ const paragraphStyles = {
 const codeStyles = {
   color: "#8A6534",
   padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
+  backgroundColor: "#cbffc9",
+  fontSize: "1.20rem",
   borderRadius: 4,
+  fontFamily: "-apple-system, Roboto, sans-serif, serif" 
 }
 const listStyles = {
   marginBottom: 96,
