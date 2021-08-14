@@ -78,6 +78,75 @@ const badgeStyle = {
   marginLeft: 10,
   lineHeight: 1,
 }
+//내가 추가한 css 코드
+const body{
+    margin: 0;
+    font-family: 'Source Sans Pro';
+}
+
+const a{
+    text-decoration:none;
+    color:white;
+}
+
+const .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(203, 191, 247);
+    padding: 8px 12px;
+}
+
+const .navbar__logo {
+    font-size: 24px;
+    color:cadetblue;
+
+}
+
+const .navbar__logo i {
+    color: rgb(97, 57, 241);
+}
+
+const .navbar__menu{
+    display:flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+const .navbar__menu li{
+    padding: 8px 12px;
+}
+
+const .navbar__menu li:hover {
+    background-color: rgb(230, 132, 255);
+    border-radius: 4px;
+}
+
+const @media screen and (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .navbar__menu {
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+
+    .navbar__menu li{
+        width:100%;
+        text-align: center;
+    }
+
+    .navbar__icons{
+        justify-content: center;
+        width:100%;
+    }
+
+
+}
 
 // data
 const links = [
@@ -144,20 +213,39 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Wikipedia
+        TOGETHER
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
+        <span style={headingAccentStyles}>더불어 살아가는 공동체 사회 </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
+        우리 사회가 모두 알아야할 <code style={codeStyles}>사회 구성원</code>에 대한 정보 아카이빙 페이지
         update in real-time.{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
           😎
         </span>
       </p>
+// html 
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <i class="fas fa-user-graduate"></i>
+            <a href="">TOGETHER</a>
+
+        </div>
+
+        <ul class="navbar__menu">
+            <li><a href="">MENU1</a></li>
+            <li><a href="">MENU2</a></li>
+            <li><a href=>MENU3</a></li>
+            <li><a href=>FAQ</a></li>
+            <li><a href="">Contact</a></li>
+
+        </ul>
+    
+    </nav>
+// html 
       <ul style={listStyles}>
         {posts.map(post => (
           <li key={post.id} style={{ ...listItemStyles}}>
@@ -168,8 +256,8 @@ const IndexPage = () => {
         ))}
       </ul>
       <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
+        alt="공동체"
+        src="http://web-zine.co.kr:8080/korad/201912/images/sub4-6_img01.jpg" width='70' height='30' fill='none'"
       />
     </main>
   )
