@@ -215,8 +215,8 @@ const IndexPage = () => {
         ))}
       </ul>
 
-const SamplePage = () => {
-  return <img src={logo} />
+const SamplePage = ()=> {
+  <img src={logo} />
 }
       <img
         alt="Gatsby G Logo"
