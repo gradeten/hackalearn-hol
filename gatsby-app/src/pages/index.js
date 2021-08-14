@@ -132,7 +132,7 @@ const IndexPage = () => {
   // Call API
   const [posts, setPosts] = useState([])
   useEffect(() => {
-    fetch(`http://localhost:7071/api/posts`)
+    fetch(`/api/posts`)
       .then(response => response.json())
       .then(result => {
         setPosts(result.posts)
