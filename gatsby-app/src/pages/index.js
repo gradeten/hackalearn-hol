@@ -12,8 +12,8 @@ const menuStyles1 = {
   listStyleType: "none",
   margin: 0,
   padding: 0,
-  overflow: "hidden";
-  backgroundColor: "#b5ffb3";
+  overflow: "hidden",
+  backgroundColor: "#b5ffb3",
 
 }
 
