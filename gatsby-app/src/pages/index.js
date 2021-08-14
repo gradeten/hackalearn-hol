@@ -33,6 +33,9 @@ const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 3000,
+  backgroundColor:"#dcffdb",
+  textAlign:"center",
+  padding: "14px 16px",
 }
 const headingAccentStyles = {
   color: "#43b53f",
