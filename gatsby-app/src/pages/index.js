@@ -18,7 +18,7 @@ const menuStyles1 = {
 }
 
 const menuStyles2= {
-  display: "inline-block",
+  display: "inline-flex",
 }
 
 const menuStyles3= {
@@ -179,7 +179,7 @@ const IndexPage = () => {
       </ul>
 
       <h1 style={headingStyles}>
-        T O G E T H E R 
+        TOGETHER 
         <span style={headingAccentStyles}> ㅡ 더불어 살아가는 우리 사회 </span>
         <span role="img" aria-label="Party popper emojis">
           🤝🌍
