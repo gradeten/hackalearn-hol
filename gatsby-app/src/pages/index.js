@@ -25,7 +25,7 @@ const menuStyles3= {
   display: "block",
   color: "#43b53f",
   textAlign: "center",
-  padding: 14px 16px,
+  padding: "14px 16px",
   textDecoration: "none",
 }
   
