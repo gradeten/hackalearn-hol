@@ -159,6 +159,27 @@ const IndexPage = () => {
          🎤🥔
         </span>
       </p>
+
+export const accordion = () => (
+  <Accordion>
+    <AccordionItem title="Section 1 title">
+      <p>
+        내용
+      </p>
+    </AccordionItem>
+    <AccordionItem title="Section 2 title">
+      <p>
+        내용
+      </p>
+    </AccordionItem>
+    <AccordionItem title="Section 3 title">
+      <p>
+       내용
+      </p>
+    </AccordionItem>
+  </Accordion>
+);
+
       <ul style={listStyles}>
         {posts.map(post => (
           <li key={post.id} style={{ ...listItemStyles}}>
