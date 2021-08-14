@@ -35,7 +35,7 @@ const headingStyles = {
   maxWidth: 3000,
   backgroundColor:"#dcffdb",
   textAlign:"center",
-  padding: "14px 16px",
+  padding: "14px 14px",
 }
 const headingAccentStyles = {
   color: "#43b53f",
