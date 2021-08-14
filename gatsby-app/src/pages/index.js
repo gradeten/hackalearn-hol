@@ -19,6 +19,7 @@ const menuStyles1 = {
 
 const menuStyles2= {
   display: "inline-flex",
+  padding-left" 0,
 }
 
 const menuStyles3= {
@@ -41,8 +42,15 @@ const headingAccentStyles = {
   color: "#43b53f",
   fontSize: "0.85rem",
 }
-const paragraphStyles = {
+
+const paragraphStyles1 = {
   marginBottom: 48,
+  textAlign:"right",
+}
+
+const paragraphStyles2 = {
+  marginBottom: 48,
+  textAlign:"center",
 }
 const codeStyles = {
   color: "#000000",
@@ -185,12 +193,14 @@ const IndexPage = () => {
           🤝🌍
         </span>
       </h1>
-      <p style={paragraphStyles}>
+      <p style={paragraphStyles1}>
         website made by Team 토킹 포테이토{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
         🎤🥔
         </span>
         <br /><br />
+      </p>
+      <p style={paragraphStyles2}>
         우리가 알아야할 <code style={codeStyles}>우리 사회 구성원</code>에 대한 정보글:
       </p>
       <ul style={listStyles}>
