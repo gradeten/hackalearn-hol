@@ -6,7 +6,7 @@ import logo from "../images/sub4-6_img01.jpg"
 
 const imageStyle= {
   display: "block",
-  margin: 10px auto 20px
+  margin: "10px auto 20px",
 }
 
 const pageStyles = {
