@@ -19,7 +19,7 @@ const menuStyles1 = {
 
 const menuStyles2= {
   display: "inline-flex",
-  padding-left": 0,
+  paddingLeft": 0,
 }
 
 const menuStyles3= {
