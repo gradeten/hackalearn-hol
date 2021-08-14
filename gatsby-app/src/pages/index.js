@@ -78,75 +78,7 @@ const badgeStyle = {
   marginLeft: 10,
   lineHeight: 1,
 }
-//내가 추가한 css 코드
-const body{
-    margin: 0;
-    font-family: 'Source Sans Pro';
-}
 
-const a{
-    text-decoration:none;
-    color:white;
-}
-
-const .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:rgb(203, 191, 247);
-    padding: 8px 12px;
-}
-
-const .navbar__logo {
-    font-size: 24px;
-    color:cadetblue;
-
-}
-
-const .navbar__logo i {
-    color: rgb(97, 57, 241);
-}
-
-const .navbar__menu{
-    display:flex;
-    list-style: none;
-    padding-left: 0;
-}
-
-const .navbar__menu li{
-    padding: 8px 12px;
-}
-
-const .navbar__menu li:hover {
-    background-color: rgb(230, 132, 255);
-    border-radius: 4px;
-}
-
-const @media screen and (max-width: 768px) {
-    .navbar{
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 8px 24px;
-    }
-
-    .navbar__menu {
-        flex-direction: column;
-        align-items: center;
-        width:100%;
-    }
-
-    .navbar__menu li{
-        width:100%;
-        text-align: center;
-    }
-
-    .navbar__icons{
-        justify-content: center;
-        width:100%;
-    }
-
-
-}
 
 // data
 const links = [
