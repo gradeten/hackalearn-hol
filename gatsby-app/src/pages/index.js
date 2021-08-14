@@ -34,7 +34,7 @@ const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 3000,
-  color: "#068500"
+  color: "#068500",
   backgroundColor:"#dcffdb",
   textAlign:"center",
   padding: "14px 14px",
@@ -50,7 +50,7 @@ const paragraphStyles1 = {
 }
 
 const paragraphStyles2 = {
-  marginBottom: 48,
+  marginBottom: 20,
   textAlign:"center",
 }
 const codeStyles = {
