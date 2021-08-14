@@ -122,17 +122,6 @@ const .navbar__menu li:hover {
     border-radius: 4px;
 }
 
-const .navbar__icons {
-    list-style: none;
-    color:white;
-    display: flex;
-    padding-left: 0;
-}
-
-const .navbar__icons li{
-    padding: 8px 12px;
-}
-
 const @media screen and (max-width: 768px) {
     .navbar{
         flex-direction: column;
@@ -238,6 +227,25 @@ const IndexPage = () => {
           😎
         </span>
       </p>
+// html 
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <i class="fas fa-user-graduate"></i>
+            <a href="">TOGETHER</a>
+
+        </div>
+
+        <ul class="navbar__menu">
+            <li><a href="">MENU1</a></li>
+            <li><a href="">MENU2</a></li>
+            <li><a href=>MENU3</a></li>
+            <li><a href=>FAQ</a></li>
+            <li><a href="">Contact</a></li>
+
+        </ul>
+    
+    </nav>
+// html 
       <ul style={listStyles}>
         {posts.map(post => (
           <li key={post.id} style={{ ...listItemStyles}}>
