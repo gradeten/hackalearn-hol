@@ -13,7 +13,7 @@ const headingStyles = {
   maxWidth: 320,
 }
 const headingAccentStyles = {
-  color: "#81ff6e",
+  color: "#43b53f",
 }
 const paragraphStyles = {
   marginBottom: 48,
@@ -21,9 +21,10 @@ const paragraphStyles = {
 const codeStyles = {
   color: "#8A6534",
   padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
+  backgroundColor: "#cbffc9",
+  fontSize: "1.20rem",
   borderRadius: 4,
+  fontFamily: "-apple-system, Roboto, sans-serif, serif" 
 }
 const listStyles = {
   marginBottom: 96,
@@ -148,14 +149,14 @@ const IndexPage = () => {
         <br />
         <span style={headingAccentStyles}>— 더불어 살아가는 우리 사회 </span>
         <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
+          🤝🌍
         </span>
       </h1>
       <p style={paragraphStyles}>
         우리가 알아야할 <code style={codeStyles}>우리 사회 구성원</code>에 대한 정보글
-        update in real-time.{" "}
+        made by Team 토킹 포테이토{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
+         🎤🥔
         </span>
       </p>
       <ul style={listStyles}>
