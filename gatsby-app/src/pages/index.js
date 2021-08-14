@@ -202,7 +202,7 @@ const IndexPage = () => {
       </ul>
       <img 
         alt="공동체 사회 이미지"
-        src="data:image/sub4-6_img01"
+        src="../images/sub4-6_img01.jpg"
         />
       <img
         alt="Gatsby G Logo"
