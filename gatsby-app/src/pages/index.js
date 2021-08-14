@@ -19,7 +19,7 @@ const menuStyles1 = {
 
 const menuStyles2= {
   display: "inline-flex",
-  paddingLeft": 0,
+  paddingLeft: 0,
 }
 
 const menuStyles3= {
@@ -34,7 +34,7 @@ const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 3000,
-  backgroundColor:"#dcffdb",
+  backgroundColor:"#068500",
   textAlign:"center",
   padding: "14px 14px",
 }
