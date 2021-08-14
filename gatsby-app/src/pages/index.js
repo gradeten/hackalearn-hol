@@ -34,7 +34,8 @@ const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 3000,
-  backgroundColor:"#068500",
+  color: "#068500"
+  backgroundColor:"#dcffdb",
   textAlign:"center",
   padding: "14px 14px",
 }
