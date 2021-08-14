@@ -18,7 +18,7 @@ const menuStyles1 = {
 }
 
 const menuStyles2= {
-  display: "inline",
+  display: "inline-block",
 }
 
 const menuStyles3= {
