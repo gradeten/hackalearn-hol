@@ -9,13 +9,13 @@ const pageStyles = {
 }
 
 const menuStyles1 = {
-  listStyleType: none,
+  listStyleType: "none",
   margin: 0,
   padding: 0,
 }
 
 const menuStyles2= {
-  display: inline,
+  display: "inline",
 }
   
 const headingStyles = {
