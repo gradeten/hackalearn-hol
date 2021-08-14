@@ -14,6 +14,7 @@ const headingStyles = {
 }
 const headingAccentStyles = {
   color: "#43b53f",
+  fontSize: "0.85rem",
 }
 const paragraphStyles = {
   marginBottom: 48,
@@ -22,7 +23,7 @@ const codeStyles = {
   color: "#000000",
   padding: 4,
   backgroundColor: "#cbffc9",
-  fontSize: "1.20rem",
+  fontSize: "1.05rem",
   borderRadius: 4,
   fontFamily: "-apple-system, Roboto, sans-serif, serif" 
 }
@@ -38,15 +39,15 @@ const listItemStyles = {
 }
 
 const linkStyle = {
-  color: "#8954A8",
+  color: "#008709",
   fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
+  fontSize: 18,
+  verticalAlign: "baseline",
 }
 
 const docLinkStyle = {
   ...linkStyle,
-  listStyleType: "none",
+  listStyleType: "square",
   marginBottom: 24,
 }
 
@@ -146,19 +147,18 @@ const IndexPage = () => {
       <title>Home Page</title>
       <h1 style={headingStyles}>
         TOGETHER
-        <br />
-        <span style={headingAccentStyles}>더불어 살아가는 우리 사회 </span>
+        <span style={headingAccentStyles}> ㅡ 더불어 살아가는 우리 사회 </span>
         <span role="img" aria-label="Party popper emojis">
           🤝🌍
         </span>
       </h1>
       <p style={paragraphStyles}>
-        우리가 알아야할 <code style={codeStyles}>우리 사회 구성원</code>에 대한 정보글
-        <br /><br />
-        made by Team 토킹 포테이토{" "}
+        website made by Team 토킹 포테이토{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
         🎤🥔
         </span>
+        <br /><br />
+        우리가 알아야할 <code style={codeStyles}>우리 사회 구성원</code>에 대한 정보글:
       </p>
       <ul style={listStyles}>
         {posts.map(post => (
