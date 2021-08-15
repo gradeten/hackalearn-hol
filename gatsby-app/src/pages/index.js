@@ -37,6 +37,7 @@ const menuStyles3= {
   textAlign: "center",
   padding: "14px 16px",
   textDecoration: "none",
+  fontWeight: "bold",
 }
   
 const headingStyles = {
@@ -72,7 +73,7 @@ const codeStyles = {
 }
 const listStyles = {
   marginBottom: 96,
-  display: "flex",
+  display: "inline-block",
 }
 const listItemStyles = {
   fontWeight: 300,
