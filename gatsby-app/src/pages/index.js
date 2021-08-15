@@ -70,7 +70,7 @@ const codeStyles = {
 }
 const listStyles = {
   marginBottom: 96,
-  paddingLeft: 0,
+  textAlign: "center",
 }
 const listItemStyles = {
   fontWeight: 300,
