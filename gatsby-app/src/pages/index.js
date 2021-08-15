@@ -189,10 +189,10 @@ const IndexPage = () => {
       <title>Home Page</title>
 
       <ul style={menuStyles1}>
-        <li style={menuStyles2}><a style={menuStyles3} href="#home">Home</a></li>
-        <li style={menuStyles2}><a style={menuStyles3} href="#news">News</a></li>
-        <li style={menuStyles2}><a style={menuStyles3} href="#contact">Contact</a></li>
-        <li style={menuStyles2}><a style={menuStyles3} href="#about">About</a></li>
+        <li style={menuStyles2}><a style={menuStyles3} href="https://white-smoke-0a8607710.azurestaticapps.net/">Home</a></li>
+        <li style={menuStyles2}><a style={menuStyles3} href="https://news.naver.com/">News</a></li>
+        <li style={menuStyles2}><a style={menuStyles3} href="https://hackalearntalkingpotato.wordpress.com/2021/08/15/hackalearn-team-%ed%86%a0%ed%82%b9-%ed%8f%ac%ed%85%8c%ec%9d%b4%ed%86%a0s-github/">Contact</a></li>
+        <li style={menuStyles2}><a style={menuStyles3} href="https://hackalearntalkingpotato.wordpress.com/2021/08/15/hackalearn-about-together/">About</a></li>
       </ul>
 
       <h1 style={headingStyles}>
@@ -210,7 +210,7 @@ const IndexPage = () => {
         <br /><br />
       </p>
       <p style={paragraphStyles2}>
-        우리가 알아야할 <code style={codeStyles}>우리 사회 구성원</code>에 대한 정보글:
+        우리가 알아야할 우리 사회 구성원<code style={codeStyles}>시각 장애인</code> 관련 정보:
       </p>
       <ul style={listStyles}>
         {posts.map(post => (
