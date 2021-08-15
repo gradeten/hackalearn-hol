@@ -210,7 +210,7 @@ const IndexPage = () => {
         <br /><br />
       </p>
       <p style={paragraphStyles2}>
-        우리가 알아야할 우리 사회 구성원<code style={codeStyles}> 시각 장애인</code> 관련 정보:
+        우리가 알아야할 우리 사회 구성원 <code style={codeStyles}>시각 장애인</code> 관련 정보:
       </p>
       <ul style={listStyles}>
         {posts.map(post => (
