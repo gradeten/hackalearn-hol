@@ -26,7 +26,7 @@ const menuStyles1 = {
 }
 
 const menuStyles2= {
-  display: "inline-flex",
+  display: "inline-block",
   paddingLeft: 0,
 }
 
