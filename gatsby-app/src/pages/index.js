@@ -70,7 +70,7 @@ const codeStyles = {
 }
 const listStyles = {
   marginBottom: 96,
-  textAlign: "center",
+  display: "flex",
 }
 const listItemStyles = {
   fontWeight: 300,
