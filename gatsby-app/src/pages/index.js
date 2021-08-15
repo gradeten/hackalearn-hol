@@ -26,7 +26,7 @@ const menuStyles1 = {
 
 const menuStyles2= {
   display: "inline-block",
-  padding: "10px",
+  padding: "5px",
 }
 
 const menuStyles3= {
@@ -44,7 +44,7 @@ const headingStyles = {
   color: "#068500",
   backgroundColor:"#dcffdb",
   textAlign:"center",
-  padding: "14px 14px",
+  padding: "20px 20px",
 }
 const headingAccentStyles = {
   color: "#43b53f",
