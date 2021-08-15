@@ -73,7 +73,9 @@ const codeStyles = {
 }
 const listStyles = {
   marginBottom: 96,
-  display: "inline-block",
+  display: "table",
+  marginLeft: "auto",
+  marginRight: "auto",
 }
 const listItemStyles = {
   fontWeight: 300,
