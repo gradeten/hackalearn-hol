@@ -7,6 +7,8 @@ import logo from "../images/together2.png"
 const imageStyle= {
   display: "block",
   margin: "auto",
+  maxWidth: "100%",
+  height: "auto",
 }
 
 const pageStyles = {
@@ -80,7 +82,7 @@ const listStyles = {
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 16,
-  marginBottom: 30,
+  marginBottom: 10,
 }
 
 const linkStyle = {
