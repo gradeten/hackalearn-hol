@@ -76,7 +76,7 @@ const listStyles = {
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 16,
-  maxWidth: 560,
+  maxWidth: 800,
   marginBottom: 30,
 }
 
