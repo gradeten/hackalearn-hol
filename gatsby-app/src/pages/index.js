@@ -27,6 +27,8 @@ const menuStyles1 = {
 const menuStyles2= {
   display: "inline-block",
   padding: "5px",
+  marginLeft: "10px",
+  marginRight: "10px",
 }
 
 const menuStyles3= {
@@ -209,13 +211,13 @@ const IndexPage = () => {
         <br /><br />
       </p>
       <p style={paragraphStyles2}>
-        우리가 알아야할 우리 사회 구성원 <code style={codeStyles}>시각 장애인</code> 관련 정보:
+        우리가 알아야할 우리 사회 구성원 <code style={codeStyles}>시각 장애인</code> 관련 정보
       </p>
       <ul style={listStyles}>
         {posts.map(post => (
           <li key={post.id} style={{ ...listItemStyles}}>
             <span>
-              <a style={linkStyle} href={post.url}>{post.title}</a> on {post.date} by {post.author.name}
+              <a style={linkStyle} href={post.url}>{post.title}</a> <br />on {post.date} <br />by {post.author.name}
             </span>
           </li>
         ))}
