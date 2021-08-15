@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import fetch from "node-fetch"
-import logo from "../images/together.png"
+import logo from "../images/together2.png"
 
 // styles
 
