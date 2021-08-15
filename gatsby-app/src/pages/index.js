@@ -27,8 +27,8 @@ const menuStyles1 = {
 const menuStyles2= {
   display: "inline-block",
   padding: "5px",
-  marginLeft: "10px",
-  marginRight: "10px",
+  marginLeft: "30px",
+  marginRight: "30px",
 }
 
 const menuStyles3= {
@@ -77,7 +77,6 @@ const listStyles = {
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 16,
-  maxWidth: 800,
   marginBottom: 30,
 }
 
