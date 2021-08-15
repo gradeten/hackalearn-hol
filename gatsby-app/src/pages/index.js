@@ -19,15 +19,14 @@ const menuStyles1 = {
   listStyleType: "none",
   margin: 0,
   padding: 0,
-  overflow: "hidden",
   backgroundColor: "#b5ffb3",
-  alignItems: "center",
+  textAlign: "center",
 
 }
 
 const menuStyles2= {
   display: "inline-block",
-  paddingLeft: 0,
+  padding: "20px",
 }
 
 const menuStyles3= {
